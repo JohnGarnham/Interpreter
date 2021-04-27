@@ -1,0 +1,13 @@
+var
+      int pay ;
+      string name ;
+      int yearBorn ;
+begin
+      set yearBorn 1980 ;
+      println "Starting Interpreter" ;
+      set pay * 40 2 ;
+      println pay ;
+      println yearBorn ;
+      println * 50 4 3 ;
+      set name "A   name    with  spaces  " ; 
+end

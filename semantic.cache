@@ -1,0 +1,23 @@
+;; Object language/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "language/"
+  :tables (list 
+   (semanticdb-table "Interpreter.java"
+    :major-mode 'jde-mode
+    :tags '(("java.util.HashMap" include nil nil [254 279]) ("java.io.*" include nil nil [280 297]) ("Interpreter" type (:typemodifiers ("public") :members (("reader" variable (:typemodifiers ("private") :type "BufferedReader") (reparse-symbol class_member_declaration) [412 442]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [472 485])) :type "void") (reparse-symbol class_member_declaration) [448 697]) ("Interpreter" function (:constructor-flag t :typemodifiers ("public") :arguments (("fileName" variable (:type "String") (reparse-symbol formal_parameters) [722 737]))) (reparse-symbol class_member_declaration) [703 3849])) :type "class") nil [380 3852]))
+    :file "Interpreter.java"
+    :pointmax 3868
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "SyntaxError.java"
+    :major-mode 'jde-mode
+    :tags '(("SyntaxError" type (:typemodifiers ("public") :superclasses "Exception" :members (("SyntaxError" function (:constructor-flag t :typemodifiers ("public") :arguments (("message" variable (:type "String") (reparse-symbol formal_parameters) [536 550]) ("lineNumber" variable (:type "int") (reparse-symbol formal_parameters) [552 566]))) (reparse-symbol class_member_declaration) [517 639])) :type "class") nil [316 660]))
+    :file "SyntaxError.java"
+    :pointmax 677
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

@@ -1,0 +1,7 @@
+print "Hi" ; 
+println "**" ;
+set age 15 ;
+set age * + 15 2 age ;
+set name "George Bush" ;
+println name ;
+println + age 20 ; 

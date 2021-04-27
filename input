@@ -1,0 +1,19 @@
+var
+        int pay ;
+        string name ;
+        int yearBorn ;
+	int monkey ;
+begin
+        set yearBorn 1980 ;
+        set pay * 40 7 ;
+	set monkey * +    2    4     5 ;
+	set name "A name with names" ;
+	println name ;
+end 
+
+
+
+
+
+
+
